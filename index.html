@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="./assets/images/image-header.webp">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Invitation - Refined Island Creation</title>
+</head>
+<body class="bg-white dark:bg-gray-900">
+    <header>
+        <div class="h-screen">
+            <nav class="absolute top-0 left-0 w-full bg-white dark:bg-gray-900">
+                <div class="mx-auto py-3 px-5">
+                    <h1 class="text-xl text-center sm:text-left sm:text-3xl md:text-4xl lg:text-5xl font-bold xl:pb-3 break-words w-[10rem] xs:w-[10rem] sm:w-[15rem] md:w-[18rem] lg:w-[25rem] xl:w-[25rem] dark:text-white">AN INVITATION TO THE HIDDEN</h1>
+                </div>
+            </nav>
+            <img src="./assets/images/image-header.webp" alt="header-image" class="inset-0 w-full h-full object-cover" />
+            <section class="relative sm:absolute sm:bottom-0 w-full bg-white dark:bg-gray-900">
+                <div class="mx-auto py-3 px-5 grid grid-cols-2 sm:grid-cols-3 gap-5 xl:gap-10 text-center sm:text-left">
+                    <div class="col-span-2 sm:col-span-1">
+                        <div class="flex flex-col justify-between md:flex-col lg:flex-row py-5">
+                            <div class="py-3 dark:text-white">
+                                <span class="sm:text-sm font-semibold">CURATED SELECTION OF</span>
+                                <h5 class="text-2xl sm:text-xl font-bold">FINE SPIRITS</h5>
+                            </div>
+                            <div class="py-3 dark:text-white">
+                                <span class="sm:text-sm font-semibold">A HIDDEN GEM</span>
+                                <h5 class="text-2xl sm:text-xl font-bold">7 NIGHTS / WEEK</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-2 sm:col-span-2">
+                        <div class="flex justify-center items-center lg:h-full xl:w-[43rem] h-full dark:text-gray-300 text-gray-600">
+                            <p>Step into place where time slows down and the night feels endless. Our speakeasy offers a unique, intimate atmosphere, perfect for those seeking something more than the usual. Come for the experience, stay for vibe.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main class="mt-20 sm:mt-0 pt-96 xs:pt-80 sm:pt-0 sm:absolute">
+        <section id="main-content">
+            <div class="mx-auto p-4 dark:bg-gray-900">
+                <div id="content-title" class="mb-6 flex flex-col items-center text-center">
+                    <div class="font-weight text-black dark:text-white mb-3">
+                        <h3 class="text-4xl font-bold">BEHIND</h3>
+                        <span class="block text-lg mb-5 font-bold">Closed Doors</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 w-auto sm:w-[25rem] md:w-[30rem] lg:w-[40rem]">Our speakeasy offers an atmosphere that's both sleek and relaxed, perfect for those who appreciate the finer things in life. Whether you're here for a quiet drink or to linger into the night, every moment feels exclusive.</p>
+                </div>
+                <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4 mb-4" id="card-image-container">
+                    <div class="card-image-item overflow-hidden">
+                        <img src="./assets/images/image-1.webp" alt="Bubble" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer" loading="lazy" />
+                    </div>
+                    <div class="card-image-item overflow-hidden">
+                        <img src="./assets/images/image-2.webp" alt="Two bottle of wine" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer " loading="lazy" />
+                    </div>
+                    <div class="card-image-item overflow-hidden">
+                        <img src="./assets/images/image-3.webp" alt="Two glass of wine" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer" loading="lazy" />
+                    </div>
+                    <div class="card-image-item overflow-hidden">
+                        <img src="./assets/images/image-4.webp" alt="Exclusive wine" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer" loading="lazy" />
+                    </div>
+                    <div class="card-image-item overflow-hidden">
+                        <img src="./assets/images/image-5.webp" alt="Luxury bar" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer" loading="lazy" />
+                    </div>
+                    <div class="card-image-item overflow-hidden">  
+                        <img src="./assets/images/image-6.webp" alt="Rose scent" class="w-full aspect-square object-cover hover:scale-125 ease-in duration-150 cursor-pointer" loading="lazy" />
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <button class="px-4 py-2 bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-400">GUESTLIST</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <dialog id="imageModal" class="backdrop:bg-black backdrop:opacity-75 p-0 rounded shadow-lg max-w-[90vw] max-h-[80vh]">
+        <div class="relative">
+            <button id="closeModal" aria-label="Close modal" class="absolute top-2 right-2 text-white text-2xl"><i class="fa-solid fa-xmark"></i></button>
+            <img id="modalImage" src="" alt="" class="max-h-[80vh] max-w-full rounded" />
+        </div>
+    </dialog>
+
+    <aside aria-label="Scroll to top button" class="relative rounded-full" id="scrollToTop"></aside>
+
+    <aside aria-label="Dark mode button" class="relative rounded-full" id="darkMode">
+        <button class="fixed bottom-5 right-5 bg-gray-900 text-white dark:bg-white dark:text-gray-900 p-3 rounded-full shadow-lg" aria-label="Toggle dark mode" id="darkModeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>   
+    </aside>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/gsap.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

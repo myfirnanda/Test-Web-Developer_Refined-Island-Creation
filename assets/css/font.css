@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Bold_Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Light_Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Ultra.ttf') format('truetype');
+    font-weight: 950;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MundoSansPro';
+    src: url('../fonts/fonnts.com-Mundo_Sans_W04_Ultra_Italic.ttf') format('truetype');
+    font-weight: 950;
+    font-style: italic;
+}

@@ -1,0 +1,56 @@
+/* Global */
+
+body {
+    font-family:'MundoSansPro', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* Header Sticky */
+
+header nav.active {
+    position: fixed;
+    left: 0; right: 0;
+    top: -80px;
+    height: 5rem;
+    bottom: auto;
+    background: white;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transform: translateY(100%);
+    transition: .3s ease;
+    z-index: 10;
+}
+
+@media (min-width: 640px) {
+    header nav.active {
+        top: -100px;
+        height: 6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    header nav.active {
+        top: -135px;
+        height: 8rem;
+    }
+}
+
+header nav.header-hide {
+    transform: translateY(0);
+}
+
+
+/* Scroll */
+
+#scrollToTop {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+#scrollToTop.show {
+    opacity: 1;
+    pointer-events: auto;
+}
