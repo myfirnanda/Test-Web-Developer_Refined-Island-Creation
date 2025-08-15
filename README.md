@@ -11,7 +11,7 @@ The entire website is **100% responsive**, following a **mobile-first** design a
 Extra attention was given to **pixel-perfect implementation**, matching the intended design as closely as possible by carefully selecting similar fonts and images.
 
 ### Light Mode Preview
-![Light Mode Screenshot](https://github.com/user-attachments/assets/16aaeb7b-c789-4021-a691-832c24c5ba33)
+![Light Mode Screenshot](https://github.com/user-attachments/assets/02fcf689-ce51-4585-bb92-548c3c83ff59)
 
 ### Dark Mode Preview
-![Dark Mode Screenshot](https://github.com/user-attachments/assets/02fcf689-ce51-4585-bb92-548c3c83ff59)
+![Dark Mode Screenshot](https://github.com/user-attachments/assets/16aaeb7b-c789-4021-a691-832c24c5ba33)
